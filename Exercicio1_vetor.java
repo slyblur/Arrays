@@ -2,13 +2,13 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class ExercicioVetor {
+public class Exercicio1_vetor {
 
 	public static void main(String[] args) {
 		
 		Scanner leia = new Scanner (System.in);		
 		
-		int vetor[]= {5,17,69,115,76,2,7,10,3,66};
+		int [] vetor= {5,17,69,115,76,2,7,10,3,66};
 		int i=0, linha; 
 		
 		System.out.println("\n5 - 17 - 69 - 115 - 76 - 2 - 7 - 10 - 36 ");
@@ -61,8 +61,8 @@ public class ExercicioVetor {
 					System.out.println("\nPosição: "+9); 
 					}
 												
-						else {
-							System.out.println("\nErro");
+					else {
+					System.out.println("\nNúmero inválido.");
 				}
 				} 					
 
